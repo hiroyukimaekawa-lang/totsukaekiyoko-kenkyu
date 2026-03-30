@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="酒と料理 戸塚駅横研究所｜全国70種以上の日本酒を、割烹の肴と共に。戸塚駅徒歩1分。テーマ別飲み比べ体験、店主の解説付き。神奈川県横浜市戸塚区。">
+  <meta property="og:title" content="酒と料理 戸塚駅横研究所">
+  <meta property="og:description" content="全国70種以上の日本酒を"知る・選ぶ・味わう"体験型の日本酒専門店。戸塚駅徒歩1分。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://totsukaekiyoko-kenkyu.netlify.app/">
+  <title>酒と料理 戸塚駅横研究所｜戸塚駅徒歩1分の体験型日本酒専門店</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <a href="#hero" class="header-logo" id="header-logo">
+      酒と料理 戸塚駅横研究所
+      <span>TOTSUKA EKIYOKO KENKYUJO</span>
+    </a>
+    <nav aria-label="メインナビゲーション">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#concept">コンセプト</a></li>
+        <li><a href="#menu">お品書き</a></li>
+        <li><a href="#lineup">日本酒</a></li>
+        <li><a href="#gallery">ギャラリー</a></li>
+        <li><a href="#access">アクセス</a></li>
+        <li>
+          <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+             target="_blank" rel="noopener noreferrer"
+             class="nav-reserve" id="nav-reserve-btn">ご予約</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="モバイルナビゲーション">
+    <a href="#concept" class="mobile-nav-link">コンセプト</a>
+    <a href="#menu" class="mobile-nav-link">お品書き</a>
+    <a href="#lineup" class="mobile-nav-link">日本酒</a>
+    <a href="#gallery" class="mobile-nav-link">ギャラリー</a>
+    <a href="#access" class="mobile-nav-link">アクセス</a>
+    <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+       target="_blank" rel="noopener noreferrer"
+       id="mobile-reserve-btn">ご予約（食べログ）</a>
+  </nav>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" aria-label="キービジュアル">
+      <div class="hero-bg">
+        <img src="img/line_oa_chat_260224_143611_group_0.jpg"
+             alt="酒と料理 戸塚駅横研究所 店舗外観"
+             id="hero-img">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">TOTSUKA EKIYOKO KENKYUJO</p>
+        <div class="hero-title-vertical" aria-label="日本酒を知る選ぶ味わう">
+          <span class="char">知</span>
+          <span class="char">る</span>
+          <span class="char">選</span>
+          <span class="char">ぶ</span>
+          <span class="char">味わう</span>
+        </div>
+        <p class="hero-sub">全国70種の銘柄と、割烹の肴、<br>そして店主の解説。</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-gold" id="hero-menu-btn">お品書きを見る</a>
+          <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-outline" id="hero-reserve-btn">ご予約はこちら</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONCEPT ===== -->
+    <section id="concept" aria-labelledby="concept-title">
+      <div class="container">
+        <div class="concept-intro reveal">
+          <span class="section-label">CONCEPT</span>
+          <h1 class="section-title" id="concept-title">
+            日本酒を、体験する場所。
+          </h1>
+          <span class="gold-line"></span>
+          <p>
+            単に「飲む」だけでなく、造り・米・地域・味わいの違いを
+            店主の解説とともに理解しながら楽しむ——
+            そんな「学びのある一杯」を提供する体験型の日本酒専門店です。
+            割烹で培った料理の技術と、全国から厳選した銘柄が、
+            あなたの日本酒の世界を広げます。
+          </p>
+        </div>
+
+        <div class="concept-cards">
+          <article class="concept-card reveal reveal-delay-1">
+            <span class="concept-num">01</span>
+            <h3>全国70種以上<br>の銘柄</h3>
+            <p>北は北海道から南は九州まで、
+               個性豊かな蔵元の銘柄を厳選。
+               純米大吟醸から個性的な地酒まで、
+               あなた好みの一本が見つかります。</p>
+          </article>
+          <article class="concept-card reveal reveal-delay-2">
+            <span class="concept-num">02</span>
+            <h3>テーマ別<br>飲み比べ体験</h3>
+            <p>「同じ米でも蔵が違えば味が変わる」
+               「精米歩合による香りの差」など、
+               店主の解説付きで楽しむテーマ別の
+               飲み比べセットをご用意しています。</p>
+          </article>
+          <article class="concept-card reveal reveal-delay-3">
+            <span class="concept-num">03</span>
+            <h3>割烹経験者による<br>ペアリング</h3>
+            <p>割烹で腕を磨いた店主が作る季節の料理は、
+               日本酒の味わいを引き立てる
+               絶妙なペアリングを意識して構成。
+               酒と肴の相乗効果を体感できます。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MENU (お品書き) ===== -->
+    <section id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="reveal" style="margin-bottom: 56px;">
+          <span class="section-label">MENU</span>
+          <h2 class="section-title" id="menu-title">お品書き</h2>
+          <span class="gold-line"></span>
+        </div>
+
+        <div class="menu-layout">
+
+          <!-- Slideshow -->
+          <div class="menu-slideshow reveal reveal-delay-1" id="menu-slideshow" aria-label="料理写真スライドショー">
+            <div class="slide active">
+              <img src="img/line_oa_chat_260224_143611_group_3.jpg"
+                   alt="割烹料理 季節の前菜" loading="lazy">
+            </div>
+            <div class="slide">
+              <img src="img/line_oa_chat_260224_143611_group_4.jpg"
+                   alt="揚げ物 名物コロッケ" loading="lazy">
+            </div>
+            <div class="slide">
+              <img src="img/line_oa_chat_260224_143611_group_2.jpg"
+                   alt="割烹料理 炙り焼き" loading="lazy">
+            </div>
+            <div class="slide">
+              <img src="img/line_oa_chat_260224_143611_group_1.jpg"
+                   alt="名物ピザ 季節の野菜" loading="lazy">
+            </div>
+            <div class="slide">
+              <img src="img/line_oa_chat_260224_143615.jpg"
+                   alt="料理写真" loading="lazy">
+            </div>
+            <div class="slide-dots" id="slide-dots" aria-label="スライドナビゲーション"></div>
+          </div>
+
+          <!-- Menu List -->
+          <div class="menu-content reveal reveal-delay-2">
+            <div class="menu-category">
+              <div class="menu-category-title">酒の肴</div>
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <span class="menu-item-name">季節の前菜盛り合わせ</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">時価</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">刺身盛り合わせ</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">時価</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">だし巻き玉子</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">580円</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">板わさ</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">480円</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">おまかせ小鉢</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">380円〜</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-category">
+              <div class="menu-category-title">割烹料理</div>
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <span class="menu-item-name">炙り焼き盛り合わせ</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">時価</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">季節の煮物</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">時価</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">三崎マグロのカツ</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">980円</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">名物 石窯ピザ</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">1,280円</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-category">
+              <div class="menu-category-title">飲み比べセット</div>
+              <div class="menu-items-list">
+                <div class="menu-item">
+                  <span class="menu-item-name">研究セット 3種</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">1,680円</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">研究セット 5種</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">2,680円</span>
+                </div>
+                <div class="menu-item">
+                  <span class="menu-item-name">テーマ別 おまかせセット</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="menu-item-price">応相談</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-cta">
+              <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn btn-outline" id="menu-tabelog-btn">
+                メニューの詳細・ご予約（食べログ）
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LINEUP (日本酒ラインナップ) ===== -->
+    <section id="lineup" aria-labelledby="lineup-title">
+      <div class="container">
+        <div class="reveal" style="margin-bottom: 20px;">
+          <span class="section-label">SAKE LINEUP</span>
+          <h2 class="section-title" id="lineup-title">全国の厳選銘柄、70種以上</h2>
+          <span class="gold-line"></span>
+        </div>
+
+        <div class="lineup-intro reveal reveal-delay-1">
+          <p>
+            北海道から九州まで、個性豊かな蔵元を厳選。
+            純米・純米吟醸・純米大吟醸を中心に、
+            食中酒として最高の一本をご提案します。
+          </p>
+        </div>
+
+        <div class="lineup-grid">
+          <article class="sake-card reveal reveal-delay-1">
+            <span class="sake-region">石川県</span>
+            <div class="sake-name">天狗舞</div>
+            <div class="sake-type">純米大吟醸</div>
+            <span class="sake-tag">辛口・芳醇</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-2">
+            <span class="sake-region">新潟県</span>
+            <div class="sake-name">久保田</div>
+            <div class="sake-type">萬寿 純米大吟醸</div>
+            <span class="sake-tag">淡麗・辛口</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-3">
+            <span class="sake-region">山形県</span>
+            <div class="sake-name">十四代</div>
+            <div class="sake-type">本丸 本醸造</div>
+            <span class="sake-tag">フルーティ</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-4">
+            <span class="sake-region">福島県</span>
+            <div class="sake-name">飛露喜</div>
+            <div class="sake-type">特別純米</div>
+            <span class="sake-tag">旨口・濃醇</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-1">
+            <span class="sake-region">兵庫県</span>
+            <div class="sake-name">黒龍</div>
+            <div class="sake-type">純米吟醸</div>
+            <span class="sake-tag">上品・繊細</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-2">
+            <span class="sake-region">秋田県</span>
+            <div class="sake-name">雪の茅舎</div>
+            <div class="sake-type">純米吟醸</div>
+            <span class="sake-tag">柔らか・旨口</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-3">
+            <span class="sake-region">高知県</span>
+            <div class="sake-name">土佐鶴</div>
+            <div class="sake-type">超辛口 純米</div>
+            <span class="sake-tag">キレ・超辛</span>
+          </article>
+          <article class="sake-card reveal reveal-delay-4">
+            <span class="sake-region">石川県</span>
+            <div class="sake-name">閑 (かん)</div>
+            <div class="sake-type">数馬酒造 純米</div>
+            <span class="sake-tag">穏やか・旨口</span>
+          </article>
+        </div>
+
+        <div class="lineup-more reveal">
+          <p>他、季節の限定銘柄、希少な原酒など随時入荷。<br>
+             詳細は店頭またはInstagramにてご確認ください。</p>
+          <a href="https://www.instagram.com/sakelab_totsuka/"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-outline" id="lineup-instagram-btn">Instagramで最新情報</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KURABEBE (飲み比べ) ===== -->
+    <section id="kurabebe" aria-labelledby="kurabebe-title">
+      <div class="container">
+        <div class="kurabebe-layout">
+          <div class="kurabebe-text reveal">
+            <span class="section-label">KURABEBE</span>
+            <h2 class="section-title" id="kurabebe-title">飲み比べ研究セット</h2>
+            <span class="gold-line"></span>
+            <p>
+              お酒のテーマを決めて、60ml × 3〜5種を
+              飲み比べる当店の看板メニュー。
+            </p>
+            <p>
+              「山田錦 vs 五百万石」「新潟 vs 東北の淡麗比べ」など、
+              毎月変わるテーマとともに、店主が一つひとつ解説しながらご提供します。
+              飲み慣れていない方でも、必ず「好みの一本」が見つかる体験型の飲み比べです。
+            </p>
+            <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+               target="_blank" rel="noopener noreferrer"
+               class="btn btn-gold" id="kurabebe-reserve-btn"
+               style="display: inline-block; margin-top: 16px;">ご予約・詳細を見る</a>
+          </div>
+
+          <div class="kurabebe-sets">
+            <article class="kset reveal reveal-delay-1">
+              <div class="kset-header">
+                <span class="kset-name">研究セット 3種</span>
+                <span class="kset-price">¥1,680</span>
+              </div>
+              <p class="kset-desc">テーマに沿った3種を60ml×3杯で。
+                 初めての方や、まず試してみたい方に。</p>
+            </article>
+            <article class="kset reveal reveal-delay-2">
+              <div class="kset-header">
+                <span class="kset-name">研究セット 5種</span>
+                <span class="kset-price">¥2,680</span>
+              </div>
+              <p class="kset-desc">より深く比較したい方向けの5種セット。
+                 店主の詳しい解説付きで日本酒を体系的に理解できます。</p>
+            </article>
+            <article class="kset reveal reveal-delay-3">
+              <div class="kset-header">
+                <span class="kset-name">おまかせテーマセット</span>
+                <span class="kset-price">応相談</span>
+              </div>
+              <p class="kset-desc">お好みや目的をお伝えいただければ、
+                 店主が最適なテーマと銘柄をセレクト。完全オーダーメイドの飲み比べ。</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="gallery-header reveal">
+          <span class="section-label">GALLERY</span>
+          <h2 class="section-title" id="gallery-title">店内・料理・日本酒</h2>
+          <span class="gold-line"></span>
+        </div>
+      </div>
+      <div class="gallery-grid reveal">
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143611_group_0.jpg"
+               alt="酒と料理 戸塚駅横研究所 店舗外観" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143614.jpg"
+               alt="日本酒 閑 数馬酒造" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143611_group_2.jpg"
+               alt="割烹料理 炙り焼き" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143611_group_3.jpg"
+               alt="季節前菜 盛り合わせ" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143611_group_4.jpg"
+               alt="名物コロッケ" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143611_group_1.jpg"
+               alt="名物ピザ 季節の野菜" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143611_group_5.jpg"
+               alt="店内の様子" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143615.jpg"
+               alt="料理写真" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143616.jpg"
+               alt="料理写真" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+        <figure class="gallery-item">
+          <img src="img/line_oa_chat_260224_143618.jpg"
+               alt="日本酒 グラス" loading="lazy">
+          <div class="gallery-overlay"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== ACCESS ===== -->
+    <section id="access" aria-labelledby="access-title">
+      <div class="container">
+        <div class="reveal" style="margin-bottom: 56px;">
+          <span class="section-label">ACCESS</span>
+          <h2 class="section-title" id="access-title">店舗情報・アクセス</h2>
+          <span class="gold-line"></span>
+        </div>
+
+        <div class="access-layout">
+          <div class="access-map reveal reveal-delay-1">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.2!2d135.4!3d35.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185e77285e7cdd%3A0x4b81c461c5ee4e61!2z6YKj44Go5paQ55CG5oi95oBl6aeF6aeF6KKL56CU7a2m5omA!5e0!3m2!1sja!2sjp!4v1"
+              loading="lazy"
+              allowfullscreen=""
+              referrerpolicy="no-referrer-when-downgrade"
+              title="酒と料理 戸塚駅横研究所 地図"
+            ></iframe>
+          </div>
+
+          <div class="access-info reveal reveal-delay-2">
+            <div class="info-block">
+              <span class="info-label">店名</span>
+              <p class="info-value">酒と料理 戸塚駅横研究所</p>
+            </div>
+            <div class="info-block">
+              <span class="info-label">所在地</span>
+              <p class="info-value">〒244-0003<br>神奈川県横浜市戸塚区戸塚町８<br>ラピス戸塚2 B1F</p>
+            </div>
+            <div class="info-block">
+              <span class="info-label">アクセス</span>
+              <p class="info-value">JR・横須賀線・東海道線・湘南新宿ライン<br>
+                <strong style="color: var(--gold);">戸塚駅 徒歩1分</strong></p>
+            </div>
+            <div class="info-block">
+              <span class="info-label">電話番号</span>
+              <p class="info-value"><a href="tel:0458718807">045-871-8807</a></p>
+            </div>
+            <div class="info-block">
+              <span class="info-label">営業時間・定休日</span>
+              <p class="info-value">詳細は食べログにてご確認ください</p>
+            </div>
+
+            <div class="access-cta">
+              <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn btn-tabelog" id="access-tabelog-btn">
+                🍴 食べログで予約・詳細を見る
+              </a>
+              <a href="https://www.instagram.com/sakelab_totsuka/"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn btn-instagram" id="access-instagram-btn">
+                📷 Instagram @sakelab_totsuka
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p class="footer-logo">
+      酒と料理 戸塚駅横研究所
+      <span class="footer-logo-sub">TOTSUKA EKIYOKO KENKYUJO</span>
+    </p>
+    <ul class="footer-links" aria-label="フッターナビゲーション">
+      <li><a href="#concept">コンセプト</a></li>
+      <li><a href="#menu">お品書き</a></li>
+      <li><a href="#lineup">日本酒</a></li>
+      <li><a href="#gallery">ギャラリー</a></li>
+      <li><a href="#access">アクセス</a></li>
+      <li>
+        <a href="https://tabelog.com/kanagawa/A1401/A140305/14036458/"
+           target="_blank" rel="noopener noreferrer">ご予約</a>
+      </li>
+    </ul>
+    <p class="footer-copy">
+      &copy; 2025 酒と料理 戸塚駅横研究所. All Rights Reserved.
+    </p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
