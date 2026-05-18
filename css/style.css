@@ -429,6 +429,42 @@ a { color: inherit; text-decoration: none; }
   transform: translateY(-4px);
 }
 
+.concept-card:nth-child(1) {
+  background:
+    linear-gradient(rgba(15, 28, 46, 0.78), rgba(15, 28, 46, 0.78)),
+    url("../img/70syurui-haikei.jpg") center / cover no-repeat;
+}
+
+.concept-card:nth-child(1):hover {
+  background:
+    linear-gradient(rgba(15, 28, 46, 0.7), rgba(15, 28, 46, 0.7)),
+    url("../img/70syurui-haikei.jpg") center / cover no-repeat;
+}
+
+.concept-card:nth-child(2) {
+  background:
+    linear-gradient(rgba(15, 28, 46, 0.78), rgba(15, 28, 46, 0.78)),
+    url("../img/sase-pearing.jpg") center / cover no-repeat;
+}
+
+.concept-card:nth-child(2):hover {
+  background:
+    linear-gradient(rgba(15, 28, 46, 0.7), rgba(15, 28, 46, 0.7)),
+    url("../img/sase-pearing.jpg") center / cover no-repeat;
+}
+
+.concept-card:nth-child(3) {
+  background:
+    linear-gradient(rgba(15, 28, 46, 0.78), rgba(15, 28, 46, 0.78)),
+    url("../img/pearing-haikei.jpg") center / cover no-repeat;
+}
+
+.concept-card:nth-child(3):hover {
+  background:
+    linear-gradient(rgba(15, 28, 46, 0.7), rgba(15, 28, 46, 0.7)),
+    url("../img/pearing-haikei.jpg") center / cover no-repeat;
+}
+
 .concept-card::before {
   content: '';
   position: absolute;
@@ -878,26 +914,6 @@ a { color: inherit; text-decoration: none; }
   flex-direction: column;
   gap: 12px;
   margin-top: 36px;
-}
-
-.btn-tabelog {
-  background: #c9302c;
-  color: white;
-  border: 1px solid #c9302c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  font-size: 0.82rem;
-  padding: 14px 28px;
-  border-radius: 2px;
-  letter-spacing: 0.1em;
-  transition: var(--transition);
-}
-.btn-tabelog:hover {
-  background: #a82520;
-  border-color: #a82520;
-  transform: translateY(-2px);
 }
 
 .btn-instagram {
