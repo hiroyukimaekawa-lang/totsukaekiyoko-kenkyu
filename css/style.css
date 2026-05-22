@@ -589,6 +589,10 @@ a { color: inherit; text-decoration: none; }
   gap: 12px;
 }
 
+.menu-item-no-price {
+  justify-content: flex-start;
+}
+
 .menu-item-name {
   font-size: 0.88rem;
   color: var(--kinu);
@@ -693,7 +697,8 @@ a { color: inherit; text-decoration: none; }
   padding: 3px 10px;
   border: 1px solid var(--border);
   font-size: 0.6rem;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
   color: var(--gold);
   border-radius: 20px;
 }
